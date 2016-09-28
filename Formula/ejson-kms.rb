@@ -13,6 +13,8 @@ class EjsonKms < Formula
     path.install Dir["*"]
     cd path do
       system "go", "build", "-o", bin / "ejson-kms"
+      man.mkpath
+      man1.install Dir['doc/man/*.1']
     end
   end
 
