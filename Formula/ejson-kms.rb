@@ -1,9 +1,9 @@
 class EjsonKms < Formula
   desc "ejson-kms is a utility for managing a collection of secrets in source control using AWS KMS."
   homepage "https://github.com/adrienkohlbecker/ejson-kms"
-  url "https://github.com/adrienkohlbecker/ejson-kms/archive/3.0.0.tar.gz"
+  url "https://github.com/adrienkohlbecker/ejson-kms/releases/download/3.0.0/ejson-kms-3.0.0.tar.gz"
   version "3.0.0"
-  sha256 "dfbcc19b2e093c782c6db8715ce4f093464a388605485ec9c1d1ef752f86919c"
+  sha256 "3688b502d7d74611a8de3ee1cac1979874a56453248e0a4164129abf29187905"
 
   depends_on "go" => :build
 
